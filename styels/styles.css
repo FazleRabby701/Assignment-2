@@ -1,0 +1,29 @@
+/* fonts from google font */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;900&family=Mulish:wght@400;800&family=Open+Sans:wght@400;800&family=Work+Sans:wght@400;600;700;800&display=swap');
+
+body {
+    font-family: 'Mulish', sans-serif;
+    margin: 50px 300px;
+}
+
+header {
+    width: 1400px;
+    height: 500px;
+    background-image: url("../assets/Images/Group\ 13\ \(1\)\ \(1\).png");
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    align-content: center;
+    background-size: auto;
+}
+
+h2.header-title {
+    text-align: center;
+    padding-top: 48px;
+    color: #FFF;
+    font-size: 64px;
+}
+
+.header-des {
+    color: #FFF;
+    text-align: center; 
+}
