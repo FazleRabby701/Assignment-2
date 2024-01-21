@@ -85,10 +85,19 @@ header {
 
 }
 
+i.fa-solid.fa-chevron-down {
+    position: relative;
+    transform: translate(-80px, 16px);
+}
 .input-style {
-    width: 16rem;
-    height: 3.5rem;
-    border-radius: .5rem;
-    background: #FFF;
-    user-select: auto;
+        width: 10rem;
+        height: 3rem;
+        border-radius: 1rem;
+        background: #FFF;
+        user-select: auto;
+        margin-left: auto;
+        border: none;
+}
+i.fa-solid.fa-magnifying-glass {
+    margin-right: 0.5rem;
 }
