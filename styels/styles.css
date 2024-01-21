@@ -1,29 +1,94 @@
 /* fonts from google font */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;900&family=Mulish:wght@400;800&family=Open+Sans:wght@400;800&family=Work+Sans:wght@400;600;700;800&display=swap');
 
+/* shared styles */
+.title-style {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+
+}
+
+.description-style {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.btn-primary {
+    width: 12rem;
+    height: 3.5rem;
+    border-radius: .5rem;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border: none;
+}
+
 body {
     font-family: 'Mulish', sans-serif;
-    margin: 50px 300px;
+    padding: 3rem 9.8rem;
 }
 
+/* Header Section */
 header {
-    width: 1400px;
-    height: 500px;
-    background-image: url("../assets/Images/Group\ 13\ \(1\)\ \(1\).png");
-    background-repeat: no-repeat;
-    border-radius: 10px;
-    align-content: center;
-    background-size: auto;
+    position: relative;
 }
 
-h2.header-title {
-    text-align: center;
-    padding-top: 48px;
+.header-img {
+    width: 1402px;
+    height: 548px;
+}
+
+.header-info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+}
+
+.header-title {
     color: #FFF;
-    font-size: 64px;
+    font-size: 4rem;
+    font-weight: 800;
+    margin: auto;
 }
 
 .header-des {
+    width: 40rem;
     color: #FFF;
-    text-align: center; 
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.header-input-section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    display: inline-flex;
+    padding: 1.5rem;
+    align-items: flex-start;
+    gap: 2.5rem;
+    border-radius: 1.5rem;
+    background: rgba(255, 255, 255, 0.30);
+}
+
+::placeholder {
+    padding-left: 1.25rem;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 1rem;
+    font-weight: 400;
+
+}
+
+.input-style {
+    width: 16rem;
+    height: 3.5rem;
+    border-radius: .5rem;
+    background: #FFF;
+    user-select: auto;
 }
