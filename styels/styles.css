@@ -346,3 +346,182 @@ footer hr {
   font-weight: 300;
   margin-top: 3rem;
 }
+
+/* Resposive Design */
+
+
+
+/* Mobile Devices */
+
+.hide{
+  display: none;
+}
+
+
+@media screen and (max-width:584px) {
+  .body{
+
+    padding: 0rem 0rem;
+  }
+  .header-info {
+    transform: translate(-47%, -212%);
+    width: 100%;
+  }
+  .header-img{
+    width: 100%;
+    border-radius: 23px;
+   
+  }
+  .destination-image-row-2, .destination-image-row-1, .destination-image-row-3{
+    flex-direction: column;
+  
+  }
+  .destination-des{
+    padding: 0px;
+    width: 100%;
+  }
+
+  .destination-image-row-1 img{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 5px;
+  }
+  .destination-image-row-2 img{
+    width: 100%;
+ 
+    margin-bottom: 5px;
+  }
+  .destination-image-row-3 img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 5px;
+  }
+  .choose-div-1{
+    flex-direction: column;
+    display: flex;
+  }
+  .choose-hotels, .choose-map, .choose-price{
+    width: 19rem;
+    height: 13rem;
+
+  }
+  .header-title{
+        color: #fff;
+        font-size: 1.5rem;
+        text-align: center;
+  }
+  .header-input-section{
+    flex-direction: column;
+    top: 17%;
+    gap: 1rem;
+    width: 77%;
+    height: 57%;
+    border-radius: 0.7rem
+
+  }
+  .header-des{
+    width: 91%;
+    font-size: 14px;
+  }
+  .input-style {
+    width: 19rem;
+    height: 4rem;
+    margin-left: -7px;
+
+  }
+  .btn-primary{
+    width: 19rem;
+    height: 4rem;
+    margin-left: -7px;
+  }
+  .special-style{
+    margin-top: -32px;
+  }
+  .special-stylebtn{
+    margin-top: -32px;
+    margin-bottom: 1px;
+  }
+  .newsletter-container{
+    flex-direction: column;
+    height:auto;
+    width: auto;
+  }
+  input[type="email"] {
+
+    width: 82%;
+  }
+  .newsletter-feedback{
+    width: 20rem;
+    margin-bottom: 24px;
+    margin-left: 10px;
+  }
+  .btn-subscribe{
+    width: 94%;
+    margin-left: -2px;
+    height: 3rem;
+    margin-bottom: 20px;
+  }
+  .newslatter-img img{
+    width: 22.5rem;
+    height: 20rem;
+  
+  }
+  .newslatter-img
+  {
+    margin-left: 8px;
+    margin-bottom: 20px;
+  }
+  .newsletter-heading{
+    width: 92%;
+  }
+  .Newsletter-des{
+    width: 100%;
+    font-size: 0.8rem;
+  }
+  
+  .footer-des{
+    margin: 1rem auto 1.75rem auto;
+    width: 300px;
+  }
+  footer{
+    background-size: 327%;
+  }
+  footer hr
+  {
+    width: 23rem;
+  }
+  .body {
+    padding: 5px;
+  }
+
+  .popular-container {
+    flex-direction: column;
+  }
+
+  .popular-title {
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 25px;
+    margin-left: 10px;
+  }
+
+  .media-popular {
+    width: 335px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+.description-style li {
+  margin-left: 1rem;
+  margin-right: 3px;
+}
+  .popular-img {
+    margin-top: 1rem;
+    height: 342px;
+    left: 20px;
+    right: 20px;
+    top: 1196px;
+    bottom: 5891px;
+  }
+
+
+}
